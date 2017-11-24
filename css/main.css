@@ -276,14 +276,17 @@ a:active {
   height: 900px;
   background: green;
 }
-#id4 {
-  height: 550px;
-  background: darkviolet;
-}
-#id5 {
+/*
+#id4{
+   height: 550px;
+   background: darkviolet;
+ }
+ */
+/* #id5{
   height: 1020px;
   background: #8a6d3b;
-}
+
+}*/
 #id6 {
   height: 873px;
   background: #d9534f;

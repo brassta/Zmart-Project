@@ -2,23 +2,101 @@ html, body {
   margin: 0px;
   font-family: "Montserrat";
 }
+*{
+
+  box-sizing: border-box;
+}
+.row::after{
+  content: '';
+  clear: both;
+  display: block;
+
+}
 
 /* Jane and John DOE */
 @font-ColorH1: #74a6cb;
 @font-ColorH2: #ff8c00;
 @paragraph: #8a8a8a;
 
-.imageProperties() {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 270px;
-  height: 270px;
+/*First div (id=header) */
 
+.head-content-wrapper{
+  min-height: 150px;
+
+  nav.navbar {
+    min-height: 150px;
+    margin-bottom: 0;
+
+    .container-fluid {
+      min-height: 150px;
+
+      .container {
+        min-height: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .row {
+          min-height: 150px;
+          .col-lg-4 {
+            height: 150px;
+            img {
+              width: 155px;
+              height: 110px;
+              padding-left: 10px;
+               -webkit-filter:  opacity(0.2) drop-shadow(0 0 0 #737373);
+              filter: opacity(0.2) drop-shadow(0 0 0 #737373);
+            }
+            h2{
+              margin-top: -10px;
+              padding-left: 15px;
+              padding-right: 15px;
+              font-size: 36px;
+              font-weight:900;
+              color:#db6414;
+              letter-spacing: 5px;
+              font-family: "Roboto";
+            }
+          }
+        .col-lg-8{
+          min-height: 150px;
+
+          #myNavbar ul{
+            list-style-type: none;
+            padding-left: 0;
+            margin-top:88px;
+            width: 779px;
+            .active{
+              color:#ff7f00;
+            }
+             li{
+                padding-left: 14px;
+                padding-right: 14px;
+                color:#585858;
+                font-size: 18pt;
+                font-weight: 900;
+                letter-spacing: 2px;
+              a:hover{
+                color: #ff7f00;
+
+
+              }
+
+            }
+
+          }
+        }
+        }
+      }
+    }
+  }
 }
 
+
+
 /*Fourth div (id=4)*/
+
 #id4 {
-  height: 550px;
+  min-height: 550px;
   background-color: #eef2f4;
   .container {
     padding: 0px;
@@ -28,7 +106,6 @@ html, body {
       margin-top: 0px;
       padding-left: 15px;
       padding-right: 15px;
-
       .col-lg-12 {
         padding: 0px;
         h1 {
@@ -59,16 +136,91 @@ html, body {
 }
 
 /* Fifth div (id=5) */
+  [class*="col-"]{
+    width: 100%;
+    padding: 5px;
+    margin:0px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    .col-lg-1   {width: 8.33%;}
+    .col-lg-2   {width: 16.66%;}
+    .col-lg-3   {width: 25%;}
+    .col-lg-4   {width: 33.33%;}
+    .col-lg-5   {width: 41.66%;}
+    .col-lg-6   {width: 50%;}
+    .col-lg-7   {width: 58.33%;}
+    .col-lg-8   {width: 66.66%;}
+    .col-lg-9   {width: 75%;}
+    .col-lg-10  {width: 83.33%;}
+    .col-lg-11  {width: 91.66%;}
+    .col-lg-12  {width: 100%;}
+  }
+  @media only screen and (max-width: 600px) and (max-width: 1199px){
+    /* For tablets: */
+    .col-sm-1   {width: 8.33%;}
+    .col-sm-2   {width: 16.66%;}
+    .col-sm-3   {width: 25%;}
+    .col-sm-4   {width: 33.33%;}
+    .col-sm-5   {width: 41.66%;}
+    .col-sm-6   {width: 50%;}
+    .col-sm-7   {width: 58.33%;}
+    .col-sm-8   {width: 66.66%;}
+    .col-sm-9   {width: 75%;}
+    .col-sm-10  {width: 83.33%;}
+    .col-sm-11  {width: 91.66%;}
+    .col-sm-12  {width: 100%;}
+
+  }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) and (max-width: 599px) {
+
+    .col-md-1   {width: 8.33%;}
+    .col-md-2   {width: 16.66%;}
+    .col-md-3   {width: 25%;}
+    .col-md-4   {width: 33.33%;}
+    .col-md-5   {width: 41.66%;}
+    .col-md-6   {width: 50%;}
+    .col-md-7   {width: 58.33%;}
+    .col-md-8   {width: 66.66%;}
+    .col-md-9   {width: 75%;}
+    .col-md-10  {width: 83.33%;}
+    .col-md-11  {width: 91.66%;}
+    .col-md-12  {width: 100%;}
+}
+@media only screen and (min-width : 480px)  and (max-width: 479px) {
+    /*For Extra Small Devices */
+    .col-xs-1   {width: 8.33%;}
+    .col-xs-2   {width: 16.66%;}
+    .col-xs-3   {width: 25%;}
+    .col-xs-4   {width: 33.33%;}
+    .col-xs-5   {width: 41.66%;}
+    .col-xs-6   {width: 50%;}
+    .col-xs-7   {width: 58.33%;}
+    .col-xs-8   {width: 66.66%;}
+    .col-xs-9   {width: 75%;}
+    .col-xs-10  {width: 83.33%;}
+    .col-xs-11  {width: 91.66%;}
+    .col-xs-12  {width: 100%;}
+
+    #id5{
+      position: absolute;
+
+    }
+}
+
+
 
 #id5 {
-  height: 1020px;
+  min-height: 1020px;
   .container {
-    padding: 0px;
+    padding: 0;
     #r1 {
-      margin-top: 90px;
+      margin-top: 85px;
 
-      .col-lg-12 {
-
+      .col-lg-12  {
+        padding-left:15px;
         h1 {
           color: @paragraph;
           font-weight: bold;

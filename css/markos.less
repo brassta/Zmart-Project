@@ -97,36 +97,96 @@
     padding: 0;
     .container {
       padding: 0;
+      .row {
 
-      .col-lg-2 {
-        position: relative;
-        text-align: right;
-        img {
-          margin-top: 38px;
-          margin-right: 0px;
-          transform: rotateX(40deg);
-          width: 150px;
-          height: 150px;
-
-        }
         #logo {
-          font-size: 37px;
-          font-weight: bolder;
-          color: #db6414;
-          position: absolute;
-          right: 20px;
-          top: 155px;
-          transform: rotateX(40deg);
 
+          img {
+            margin-top: 38px;
+            margin-right: 0px;
+            transform: rotateX(40deg);
+            width: 150px;
+            height: 150px;
+          }
+
+          #zmart {
+            font-size: 40px;
+            font-weight: bolder;
+            color: #db6414;
+            position: relative;
+            top:-30px;
+            left: 5px;
+            transform: rotateX(40deg);
+
+          }
+        }
+
+        #menu {
+          padding: 0px;
+          color: #8a8a8a;
+          ul {
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 33px;
+            padding-left: 50px;
+            margin-top: 60px;
+            font-size: 23px;
+            list-style-type: none;
+            li {
+              .fb {
+                width: 30px;
+                height: 30px;
+                &:hover {
+                  content: url("../img/facebookHover.png");
+                }
+              }
+              .tw {
+                width: 30px;
+                height: 30px;
+                &:hover {
+                  content: url("../img/twitterHover.png");
+                }
+              }
+              &:hover {
+                color: #ff7f00;
+                cursor: pointer;
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            ul {
+              padding-left: 40px;
+            }
+          }
+
+          &:nth-child(4) {
+            ul {
+              padding-left: 2px;
+            }
+          }
         }
 
       }
+
     }
   }
 
   #r3 {
     height: 54px;
     background-color: #202020;
+
+    .container{
+      padding: 0;
+      .row{
+        .col-lg-12{
+          padding-top: 20px;
+          font-weight: bold;
+          font-size: 16px;
+          color:#737373;
+        }
+      }
+    }
   }
 
 }
@@ -163,4 +223,64 @@
     padding-top: 20px;
   }
 
+  .footer-content-wrapper {
+    #r2 {
+      height: 600px;
+      .container {
+        .row {
+          text-align: center;
+
+          #menu {
+            ul {
+              padding: 0;
+              margin: 0;
+            }
+
+            &:nth-child(3) {
+              ul {
+                padding-left: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .footer-content-wrapper {
+    #r2 {
+      height: 600px;
+      .container {
+        .row {
+          text-align: center;
+
+          #menu {
+            ul {
+              padding: 0;
+              margin: 0;
+            }
+
+            &:nth-child(3) {
+              ul {
+                padding-left: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #r3{
+      .container{
+        .row{
+          .col-lg-12{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
 }

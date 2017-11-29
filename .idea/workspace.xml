@@ -11,18 +11,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="markos.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="markos.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/markos.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="774">
+              <caret line="279" column="30" lean-forward="false" selection-start-line="279" selection-start-column="30" selection-end-line="279" selection-end-column="30" />
               <folding>
                 <element signature="e#94#969#0" expanded="false" />
-                <element signature="e#988#1639#0" expanded="false" />
-                <element signature="e#1737#2323#0" expanded="false" />
-                <element signature="e#2463#2897#0" expanded="false" />
-                <element signature="e#2491#2813#0" expanded="false" />
-                <element signature="e#2840#2894#0" expanded="false" />
+                <element signature="e#3729#4541#0" expanded="false" />
+                <element signature="e#3757#4079#0" expanded="false" />
+                <element signature="e#4106#4160#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -31,18 +29,18 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="182" selection-end-column="1" />
+            <state relative-caret-position="99">
+              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="112" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="markos.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="markos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/markos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="759">
+              <caret line="145" column="42" lean-forward="false" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -94,7 +92,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -181,6 +179,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b9385fd3-a7c8-439f-baf7-5a298805fd39" name="Default" comment="" />
@@ -192,15 +193,15 @@
       <workItem from="1511363481705" duration="553000" />
       <workItem from="1511433500413" duration="17839000" />
       <workItem from="1511510956316" duration="9875000" />
-      <workItem from="1511942717538" duration="6235000" />
+      <workItem from="1511942717538" duration="16890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41283000" />
+    <option name="totallyTimeSpent" value="51938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -240,11 +241,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#94#969#0" expanded="false" />
-            <element signature="e#988#1639#0" expanded="false" />
-            <element signature="e#1737#2323#0" expanded="false" />
-            <element signature="e#2463#2897#0" expanded="false" />
-            <element signature="e#2491#2813#0" expanded="false" />
-            <element signature="e#2840#2894#0" expanded="false" />
+            <element signature="e#3729#4541#0" expanded="false" />
+            <element signature="e#3757#4079#0" expanded="false" />
+            <element signature="e#4106#4160#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -275,11 +274,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#94#969#0" expanded="false" />
-            <element signature="e#988#1639#0" expanded="false" />
-            <element signature="e#1737#2323#0" expanded="false" />
-            <element signature="e#2463#2897#0" expanded="false" />
-            <element signature="e#2491#2813#0" expanded="false" />
-            <element signature="e#2840#2894#0" expanded="false" />
+            <element signature="e#3729#4541#0" expanded="false" />
+            <element signature="e#3757#4079#0" expanded="false" />
+            <element signature="e#4106#4160#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -388,37 +385,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/markos.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#94#969#0" expanded="false" />
-            <element signature="e#988#1639#0" expanded="false" />
-            <element signature="e#1737#2323#0" expanded="false" />
-            <element signature="e#2463#2897#0" expanded="false" />
-            <element signature="e#2491#2813#0" expanded="false" />
-            <element signature="e#2840#2894#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="182" selection-end-column="1" />
+        <state relative-caret-position="99">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="112" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/markos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="759">
+          <caret line="145" column="42" lean-forward="false" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/markos.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="279" column="30" lean-forward="false" selection-start-line="279" selection-start-column="30" selection-end-line="279" selection-end-column="30" />
+          <folding>
+            <element signature="e#94#969#0" expanded="false" />
+            <element signature="e#3729#4541#0" expanded="false" />
+            <element signature="e#3757#4079#0" expanded="false" />
+            <element signature="e#4106#4160#0" expanded="false" />
           </folding>
         </state>
       </provider>

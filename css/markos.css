@@ -31,6 +31,9 @@ body {
   font-weight: 800;
   font-size: 18px;
 }
+.head-content-wrapper {
+  height: 150px;
+}
 .head-content-wrapper nav {
   border: 0;
   margin: 0;

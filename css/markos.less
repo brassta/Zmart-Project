@@ -3,6 +3,11 @@
 @colorId6: #ffffff;
 @colorId7: #8a8a8a;
 
+body {
+  overflow-x: hidden;
+}
+
+/*ID6 DIV*/
 #id6 {
   height: 873px;
   padding: 0;
@@ -114,7 +119,7 @@
             font-weight: bolder;
             color: #db6414;
             position: relative;
-            top:-30px;
+            top: -30px;
             left: 5px;
             transform: rotateX(40deg);
 
@@ -176,19 +181,18 @@
     height: 54px;
     background-color: #202020;
 
-    .container{
+    .container {
       padding: 0;
-      .row{
-        .col-lg-12{
+      .row {
+        .col-lg-12 {
           padding-top: 20px;
           font-weight: bold;
           font-size: 16px;
-          color:#737373;
+          color: #737373;
         }
       }
     }
   }
-
 }
 
 /* Medium Devices, Desktops */
@@ -229,7 +233,11 @@
       .container {
         .row {
           text-align: center;
-
+          #logo {
+            #zmart {
+              left: 0px;
+            }
+          }
           #menu {
             ul {
               padding: 0;
@@ -273,10 +281,10 @@
       }
     }
 
-    #r3{
-      .container{
-        .row{
-          .col-lg-12{
+    #r3 {
+      .container {
+        .row {
+          .col-lg-12 {
             text-align: center;
           }
         }

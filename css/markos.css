@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+/*ID6 DIV*/
 #id6 {
   height: 873px;
   padding: 0;
@@ -174,6 +178,9 @@
   }
   .footer-content-wrapper #r2 .container .row {
     text-align: center;
+  }
+  .footer-content-wrapper #r2 .container .row #logo #zmart {
+    left: 0px;
   }
   .footer-content-wrapper #r2 .container .row #menu ul {
     padding: 0;

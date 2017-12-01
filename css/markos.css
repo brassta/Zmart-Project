@@ -78,7 +78,32 @@ body {
   font-weight: bold;
   color: #dd6414;
 }
-/*+++++++++++++++++++++++++++++++++++++++++Ana's part+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*ID1 DIV*/
+#id1 {
+  padding: 0;
+}
+#id1 .bottomright {
+  position: absolute;
+  bottom: 9px;
+  right: 390px;
+  font-size: 80px;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+/*ID2 DIV*/
+#id2 {
+  background: #4c4c4c;
+  margin: 0px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+}
+#id2 .list-style {
+  list-style: none;
+}
+#id2 .list-style li {
+  float: right;
+}
 /* ID3 DIV*/
 #id3 {
   height: 900px;

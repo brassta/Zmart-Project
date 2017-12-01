@@ -260,10 +260,10 @@ a:active {
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /*Seting up template */
-.head-content-wrapper {
+/*.head-content-wrapper{
   height: 150px;
   background: #419641;
-}
+}*/
 #id1 {
   height: 685px;
   background: #82ff82;
@@ -276,23 +276,25 @@ a:active {
   height: 900px;
   background: green;
 }
-#id4 {
+/*#id4{
   height: 550px;
   background: darkviolet;
-}
-#id5 {
+}*/
+/*#id5{
   height: 1020px;
   background: #8a6d3b;
+
 }
-#id6 {
+#id6{
   height: 873px;
   background: #d9534f;
 }
-#id7 {
+#id7{
   height: 1045px;
   background: gold;
 }
-.footer-content-wrapper {
+
+.footer-content-wrapper{
   height: 500px;
   background: blue;
-}
+}*/

@@ -1,5 +1,139 @@
+/*Marko's variables*/
+/*Raco's variables*/
 body {
   overflow-x: hidden;
+}
+/*Template for Raco's paragraphs in div id5*/
+.tmpl .col-lg-9 {
+  padding-left: 52px;
+}
+.tmpl .col-lg-9 h1 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Montserrat';
+  color: #74a6cb;
+  font-weight: 600;
+  font-size: 22pt;
+  letter-spacing: 1px;
+}
+.tmpl .col-lg-9 h6 {
+  font-family: 'Montserrat';
+  padding-left: 10px;
+  color: #ff8c00;
+  font-weight: bold;
+  font-size: 16pt;
+  letter-spacing: 1px;
+}
+.tmpl .col-lg-9 p {
+  font-family: 'Roboto';
+  padding-top: 10px;
+  color: #8a8a8a;
+  font-weight: 800;
+  font-size: 18px;
+}
+/*ID6 DIV*/
+#id5 {
+  height: 1020px;
+}
+#id5 .container {
+  padding: 0;
+}
+#id5 .container #r1 {
+  margin-top: 90px;
+}
+#id5 .container #r1 .col-lg-12 {
+  padding-left: 15px;
+}
+#id5 .container #r1 .col-lg-12 h1 {
+  font-family: 'Montserrat';
+  color: #8a8a8a;
+  font-weight: bold;
+  font-size: 36pt;
+  margin-top: 0px;
+  margin-left: 0px;
+  letter-spacing: 3.1px;
+}
+#id5 .container #r2 {
+  margin-top: 70px;
+}
+#id5 .container #r2 .col-lg-3 {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+#id5 .container #r2 .col-lg-3 img {
+  object-position: 90% 0;
+  border-radius: 50%;
+  object-fit: none;
+  width: 270px;
+  height: 270px;
+}
+#id5 .container #r2 .col-lg-9 {
+  padding-left: 52px;
+}
+#id5 .container #r2 .col-lg-9 h1 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Montserrat';
+  color: #74a6cb;
+  font-weight: 600;
+  font-size: 22pt;
+  letter-spacing: 1px;
+}
+#id5 .container #r2 .col-lg-9 h6 {
+  font-family: 'Montserrat';
+  padding-left: 10px;
+  color: #ff8c00;
+  font-weight: bold;
+  font-size: 16pt;
+  letter-spacing: 1px;
+}
+#id5 .container #r2 .col-lg-9 p {
+  font-family: 'Roboto';
+  padding-top: 10px;
+  color: #8a8a8a;
+  font-weight: 800;
+  font-size: 18px;
+}
+#id5 .container #r3 {
+  margin-top: 100px;
+}
+#id5 .container #r3 .col-lg-3 {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+#id5 .container #r3 .col-lg-3 img {
+  object-position: 20% 0;
+  border-radius: 50%;
+  object-fit: none;
+  width: 270px;
+  height: 270px;
+}
+#id5 .container #r3 .col-lg-9 {
+  padding-left: 52px;
+}
+#id5 .container #r3 .col-lg-9 h1 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Montserrat';
+  color: #74a6cb;
+  font-weight: 600;
+  font-size: 22pt;
+  letter-spacing: 1px;
+}
+#id5 .container #r3 .col-lg-9 h6 {
+  font-family: 'Montserrat';
+  padding-left: 10px;
+  color: #ff8c00;
+  font-weight: bold;
+  font-size: 16pt;
+  letter-spacing: 1px;
+}
+#id5 .container #r3 .col-lg-9 p {
+  font-family: 'Roboto';
+  padding-top: 10px;
+  color: #8a8a8a;
+  font-weight: 800;
+  font-size: 18px;
 }
 /*ID6 DIV*/
 #id6 {
@@ -44,7 +178,7 @@ body {
 }
 /*ID7 DIV*/
 #id7 {
-  padding-bottom: 243px;
+  padding-bottom: 207px;
   padding-top: 60px;
   color: #8a8a8a;
 }
@@ -60,15 +194,15 @@ body {
 }
 #id7 .container .row .col-lg-12 h3 {
   font-family: 'Montserrat';
-  padding-top: 75px;
+  padding-top: 55px;
   font-weight: bold;
   font-size: 31px;
   padding-bottom: 20px;
 }
 #id7 .container .row .col-lg-12 p {
   font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 140%;
+  font-size: 15px;
+  line-height: 20px;
   letter-spacing: 1px;
 }
 .footer-content-wrapper #r1 {
@@ -192,6 +326,15 @@ body {
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  #id5 {
+    height: 2200px;
+  }
+  #id5 .container {
+    text-align: center;
+  }
+  #id5 .container #r1 .col-lg-12 h1 {
+    font-size: 30px;
+  }
   .footer-content-wrapper #r2 {
     height: 600px;
   }

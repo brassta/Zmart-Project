@@ -1,10 +1,109 @@
+/*Marko's variables*/
 @headings: 'Montserrat';
 @paragraphs: 'Roboto';
 @colorId6: #ffffff;
 @colorId7: #8a8a8a;
 
+/*Raco's variables*/
+@font-ColorH1: #74a6cb;
+@font-ColorH2: #ff8c00;
+@paragraph: #8a8a8a;
+
 body {
   overflow-x: hidden;
+}
+
+/*Template for Raco's paragraphs in div id5*/
+.tmpl {
+
+  .col-lg-9 {
+    padding-left: 52px;
+    h1 {
+      padding-left: 10px;
+      padding-top: 10px;
+      font-family: @headings;
+      color: @font-ColorH1;
+      font-weight: 600;
+      font-size: 22pt;
+      letter-spacing: 1px;
+    }
+
+    h6 {
+      font-family: @headings;
+      padding-left: 10px;
+      color: @font-ColorH2;
+      font-weight: bold;
+      font-size: 16pt;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-family: @paragraphs;
+      padding-top: 10px;
+      color: @paragraph;
+      font-weight: 800;
+
+      font-size: 18px;
+    }
+  }
+}
+
+/*ID6 DIV*/
+#id5 {
+  height: 1020px;
+  .container {
+    padding: 0;
+
+    #r1 {
+      margin-top: 90px;
+      .col-lg-12 {
+        padding-left: 15px;
+        h1 {
+          font-family: @headings;
+          color: @paragraph;
+          font-weight: bold;
+          font-size: 36pt;
+          margin-top: 0px;
+          margin-left: 0px;
+          letter-spacing: 3.1px;
+        }
+      }
+    }
+    #r2 {
+      margin-top: 70px;
+      .col-lg-3 {
+        padding-left: 25px;
+        padding-top: 5px;
+
+        img {
+          object-position: 90% 0;
+          border-radius: 50%;
+          object-fit: none;
+          width: 270px;
+          height: 270px;
+        }
+
+      }
+      .tmpl;
+    }
+    #r3 {
+      margin-top: 100px;
+      .col-lg-3 {
+        padding-left: 25px;
+        padding-top: 5px;
+
+        img {
+          object-position: 20% 0;
+          border-radius: 50%;
+          object-fit: none;
+          width: 270px;
+          height: 270px;
+        }
+
+      }
+      .tmpl;
+    }
+  }
 }
 
 /*ID6 DIV*/
@@ -55,7 +154,7 @@ body {
 
 /*ID7 DIV*/
 #id7 {
-  padding-bottom: 243px;
+  padding-bottom: 207px;
   padding-top: 60px;
   color: @colorId7;
 
@@ -73,15 +172,15 @@ body {
         }
         h3 {
           font-family: @headings;
-          padding-top: 75px;
+          padding-top: 55px;
           font-weight: bold;
           font-size: 31px;
           padding-bottom: 20px;
         }
         p {
           font-family: @paragraphs;
-          font-size: 14px;
-          line-height: 140%;
+          font-size: 15px;
+          line-height: 20px;
           letter-spacing: 1px;
         }
       }
@@ -258,6 +357,20 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  #id5{
+    height: 2200px;
+    .container{
+      text-align: center;
+      #r1{
+        .col-lg-12{
+
+          h1{
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
   .footer-content-wrapper {
     #r2 {
       height: 600px;

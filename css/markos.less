@@ -73,6 +73,7 @@ body {
                 li {
                   a {
                     color: #585858;
+                    cursor: pointer;
                     &:hover {
                       color: #ff7f00;
                     }
@@ -112,16 +113,15 @@ body {
   }
 }
 
-
 /*ID1 DIV*/
 #id1 {
-padding: 0;
+  padding: 0;
 
-  .bottomright{
+  .bottomright {
     position: absolute;
     bottom: 9px;
     right: 390px;
-    font-size:80px;
+    font-size: 80px;
     color: white;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -130,7 +130,7 @@ padding: 0;
 
 /*ID2 DIV*/
 #id2 {
-  background:  @bgColorId2;
+  background: @bgColorId2;
   margin: 0px;
   padding-top: 13px;
   padding-bottom: 15px;
@@ -139,14 +139,14 @@ padding: 0;
     list-style: none;
     li {
       float: right;
-      a{
-        #p1{
-          &:hover{
+      a {
+        #p1 {
+          &:hover {
             content: url("../img/twitterHover.png");
           }
         }
-        #p2{
-          &:hover{
+        #p2 {
+          &:hover {
             content: url("../img/facebookHover.png");
           }
         }
@@ -232,6 +232,9 @@ padding: 0;
 #id4 {
   height: 550px;
   background-color: #eef2f4;
+  position: relative;
+  top: 55px;
+  display: block;
 
   .container {
     padding: 0px;
@@ -580,21 +583,20 @@ padding: 0;
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
 
-  #id3{
+  #id3 {
     height: 2000px;
-.container{
-  .row{
-    .col-lg-4{
-      .jumbotron{
-        padding-top: 20px;
-        padding-bottom: 50px;
-        padding-left: 15px;
+    .container {
+      .row {
+        .col-lg-4 {
+          .jumbotron {
+            padding-top: 20px;
+            padding-bottom: 50px;
+            padding-left: 15px;
+          }
+        }
       }
     }
   }
-}
-  }
-
 
   #id4 {
     height: 1100px;

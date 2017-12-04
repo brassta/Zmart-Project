@@ -27,7 +27,9 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
-
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 
 <body>
@@ -59,11 +61,11 @@
                         </div>
                         <div id="navbar3" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">HOME</a></li>
-                                <li><a href="#">ABOUT US</a></li>
-                                <li><a href="#">SERVICES</a></li>
-                                <li><a href="#">CAREER</a></li>
-                                <li><a href="#">CONTACT</a></li>
+                                <li><a id="home">HOME</a></li>
+                                <li><a id="aboutUs">ABOUT US</a></li>
+                                <li><a id="services">SERVICES</a></li>
+                                <li><a id="career">CAREER</a></li>
+                                <li><a id="contact">CONTACT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -130,7 +132,7 @@
                 <div class="jumbotron">
                     <div class="card text-center">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="!00%" height="200" viewBox="0 0 24 24" fill="none"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" viewBox="0 0 24 24" fill="none"
                              stroke="#74a6cb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-activity">
                             <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
@@ -150,7 +152,7 @@
                 <div class="jumbotron">
                     <div class="card text-center">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 24 24" fill="none"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" viewBox="0 0 24 24" fill="none"
                              stroke="#74a6cb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-package">
                             <path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.79 0l-8-4a2 2 0 0 1-1.1-1.8V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z"></path>
@@ -178,7 +180,7 @@
                     <div class="card text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="feather feather-users" fill="none"
                              stroke="#74a6cb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                             viewBox="0 0 24 24" width="280" height="200">
+                             viewBox="0 0 24 24" width="70%" height="70%">
                             <path d="M 17 21 v -2 a 4 4 0 0 0 -4 -4 H 5 a 4 4 0 0 0 -4 4 v 2"/>
                             <circle cx="9" cy="7" r="4"/>
                             <path d="M 23 21 v -2 a 4 4 0 0 0 -3 -3.87"/>
@@ -376,9 +378,42 @@
 
 </div>
 
-
-<script src="../js/vendor/jquery-1.11.2.min.js"></script>
 <script src="../js/vendor/bootstrap.js"></script>
 <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+
+        $('#id4').effect("slide", "slow");
+
+
+        $("#home").click(function() {
+            $('html,body').animate(
+                {scrollTop: $(".head-content-wrapper").offset().top}
+                , 'slow');
+        });
+        $("#aboutUs").click(function() {
+            $('html,body').animate(
+                {scrollTop: $("#id6").offset().top -200}
+                , 'slow');
+        });
+        $("#services").click(function() {
+            $('html,body').animate(
+                {scrollTop: $("#id3").offset().top-150}
+                , 'slow');
+        });
+        $("#career").click(function() {
+            $('html,body').animate(
+                {scrollTop: $("#id5").offset().top}
+                , 'slow');
+        });
+        $("#contact").click(function() {
+            $('html,body').animate(
+                {scrollTop: $(".footer-content-wrapper").offset().top}
+                , 'slow');
+        });
+    });
+</script>
 </body>
 </html>
